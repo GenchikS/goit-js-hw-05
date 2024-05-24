@@ -3,8 +3,6 @@ const sortByDescendingFriendCount = (users) => {
 return friendsAll;
 };
 
-
-
 console.log(
   sortByDescendingFriendCount([
     {
