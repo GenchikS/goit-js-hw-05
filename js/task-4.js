@@ -12,8 +12,8 @@
 
 //  ланцюжковий метод 
 const getTotalBalanceByGender = (users, gender) => {
-    const balanceAll = users.
-        filter(user => user.gender === gender)
+    const balanceAll = users
+        .filter(user => user.gender === gender)
         .reduce((acc, number) => {
             return (acc + number.balance);
         },0);
